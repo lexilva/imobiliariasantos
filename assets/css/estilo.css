@@ -18,7 +18,10 @@ section{
     margin:0,auto;
 }
 p{
-    margin: 10,auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
     width: 980px;
     text-align: justify;
     font-size: 18px;
@@ -38,4 +41,24 @@ p{
 .banner{
     margin-top: 50px;
     padding-top: 0;
+}
+span{
+    font-weight: bold;
+}
+h1{
+    color:#1d1d1d;
+    margin-bottom: 5px;
+}
+h2{
+    color:#1c81c0;
+}
+.sobre{
+    margin-left: auto;
+    margin-right: auto;
+}
+.sobre img{
+    width: 450px;
+}
+.texto-azul{
+    color:#1d80c1;
 }
