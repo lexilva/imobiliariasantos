@@ -1,7 +1,6 @@
 body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin:0,auto;
 }
 header{
     padding: 30px auto;
@@ -49,30 +48,39 @@ span{
 h1{
     color:#1d1d1d;
     margin-bottom: 5px;
+    font-size: 34px;
 }
 h2{
     color:#1c81c0;
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 42px;
 }
 .sobre{
     margin-left: auto;
     margin-right: auto;
 }
-.sobre img{
+.imagem{
     width: 450px;
+}
+.texto-negrito{
+    font-weight: bold;
 }
 .texto-azul{
     color:#1d80c1;
+}
+.texto-branco{
+    color:#ffffff;
 }
 .serviços{
     background-color: #1d80c1;
 }
 .serviços h2{
-    color: #ffffff;
     font-size: 28px;
     line-height: 42px;
 }
-.serviços p{
-    color:#ffffff;
+.paragrafo{
     line-height: 42px;
     font-size: 22px;
     width: 700px;
