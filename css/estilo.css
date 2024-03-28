@@ -10,7 +10,7 @@ header{
 .logo{
     width: 150px;
 }
-section{
+.secao{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
@@ -48,18 +48,21 @@ span{
 h1{
     color:#1d1d1d;
     margin-bottom: 5px;
-    font-size: 34px;
+    font-size: 32px;
+    margin-top: 0px;
 }
-h2{
+
+.sobre{
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+    padding-bottom: 30px;
+}
+.sobre h2{
     color:#1c81c0;
     margin-top: 0;
     font-weight: normal;
     font-size: 22px;
-    line-height: 42px;
-}
-.sobre{
-    margin-left: auto;
-    margin-right: auto;
 }
 .imagem{
     width: 450px;
@@ -75,8 +78,9 @@ h2{
 }
 .fundoAzul{
     background-color: #1d80c1;
+    
 }
-.serviços h2{
+.subtitulo{
     font-size: 28px;
     line-height: 42px;
 }
